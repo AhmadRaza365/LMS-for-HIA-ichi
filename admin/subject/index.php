@@ -7,7 +7,7 @@
 	<div class="card-header">
 		<h3 class="card-title">Subject List</h3>
 		<div class="card-tools">
-			<a class="btn btn-block btn-sm btn-default btn-flat border-primary new_subject" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
+			<a class="btn btn-block btn-sm btn-default btn-flat SecondaryBg tertiaryColor new_subject" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
 		</div>
 	</div>
 	<div class="card-body">
@@ -32,7 +32,7 @@
 					<td><span class="truncate"><?php echo $row['description'] ?></span></td>
 					<td class="text-center">
 						<div class="btn-group">
-		                    <button type="button" class="btn btn-default btn-block btn-flat dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
+		                    <button type="button" class="btn btn-default btn-block SecondaryBg tertiaryColor btn-flat dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
 		                    	Action
 		                      <span class="sr-only">Toggle Dropdown</span>
 		                    </button>

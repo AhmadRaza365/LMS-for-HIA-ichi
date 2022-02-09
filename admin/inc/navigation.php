@@ -93,7 +93,7 @@
               <hr>
               <li class="nav-header"></li>
 
-              <li class="nav-item dropdown fixed-bottom mb-3 mt-lg-3">
+              <li class="nav-item dropdown fixed-bottom mb-3 mt-lg-3" style=" max-width: fit-content; ">
                 <a class="nav-link nav-subject" href="javascript:void(0)" onclick="location.replace('<?php echo base_url . '/classes/Login.php?f=logout' ?>')" role="button">
                   <i class="nav-icon fas fa-sign-out-alt"></i>
                   <p>
