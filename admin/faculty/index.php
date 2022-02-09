@@ -4,10 +4,10 @@
 </script>
 <?php endif;?>
 <div class="col-lg-12">
-	<div class="card card-outline card-primary">
+	<div class="card card-outline card-primary SecondaryColBorder">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary new_faculty" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat SecondaryBg tertiaryColor new_faculty" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -38,7 +38,7 @@
 						<td><b><?php echo $department ?></b></td>
 						<td class="text-center">
     						<div class="btn-group">
-		                    <button type="button" class="btn btn-default btn-block btn-flat dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
+		                    <button type="button" class="btn btn-default btn-block btn-flat SecondaryBg tertiaryColor dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
 		                    	Action
 		                      <span class="sr-only">Toggle Dropdown</span>
 		                    </button>
