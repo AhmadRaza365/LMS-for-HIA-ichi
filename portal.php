@@ -38,17 +38,17 @@
 			<div class="row">
 				<div class="col-md-4">
 					<a href="<?php echo base_url.'admin' ?>" class="portal-link">
-						<div class="card card-widget widget-user">
+						<div class="card card-widget widget-user rounded">
 			              <!-- Add the bg color to the header using any of the bg-* classes -->
 			              <div class="widget-user-header PrimaryBg">
-			                <h3 class="widget-user-username tertiaryColor">Admin</h3>
+			                <h3 class="widget-user-username tertiaryColor rounded-top">Admin</h3>
 			              </div>
 			              <div class="widget-user-image">
 			                <span class="img-circle elevation-2 fa fa-user-cog portial-icon"></span>
 			              </div>
-			              <div class="card-footer PrimaryBg">
+			              <div class="card-footer PrimaryBg rounded-bottom">
 			                <div class="container">
-			                	<p class="text-center text-white-50"><small><i>Click here to Admin Side</i></small></p>
+			                	<p class="text-center text-white-50"><small><i>Click here for Admin Panel</i></small></p>
 			                </div>
 			              </div>
 			            </div>
@@ -58,15 +58,15 @@
 					<a href="<?php echo base_url.'faculty' ?>" class="portal-link">
 						<div class="card card-widget widget-user">
 			              <!-- Add the bg color to the header using any of the bg-* classes -->
-			              <div class="widget-user-header bg-indigo">
-			                <h3 class="widget-user-username">Faculty</h3>
+			              <div class="widget-user-header PrimaryBg">
+			                <h3 class="widget-user-username tertiaryColor rounded-top">Faculty</h3>
 			              </div>
 			              <div class="widget-user-image">
 			                <span class="img-circle elevation-2 fa fa-user-tie portial-icon"></span>
 			              </div>
-			              <div class="card-footer bg-indigo">
+			              <div class="card-footer PrimaryBg rounded-bottom">
 			                <div class="container">
-			                	<p class="text-center text-white-50"><small><i>Click here to Establishment Side</i></small></p>
+			                	<p class="text-center text-white-50"><small><i>Click here for Faculty Panel</i></small></p>
 			                </div>
 			              </div>
 			            </div>
@@ -76,15 +76,15 @@
 					<a href="<?php echo base_url.'student' ?>" class="portal-link">
 						<div class="card card-widget widget-user">
 			              <!-- Add the bg color to the header using any of the bg-* classes -->
-			              <div class="widget-user-header bg-indigo border-info">
-			                <h3 class="widget-user-username">Student</h3>
+			              <div class="widget-user-header PrimaryBg rounded-top">
+			                <h3 class="widget-user-username tertiaryColor rounded-top">Student</h3>
 			              </div>
 			              <div class="widget-user-image">
 			                <span class="img-circle elevation-2 fa fa-users portial-icon"></span>
 			              </div>
-			              <div class="card-footer bg-indigo border-info">
+			              <div class="card-footer PrimaryBg rounded-bottom">
 			                <div class="container">
-			                	<p class="text-center text-white-50"><small><i>Click here to Signin or Register</i></small></p>
+			                	<p class="text-center text-white-50"><small><i>Click here for Student Panel</i></small></p>
 			                </div>
 			              </div>
 			            </div>
@@ -95,17 +95,4 @@
 		<div>
 	</div>
 
-	<section>
-		<div class="col-lg-12">
-			<h1 class="text-center">Welcome</h1>
-			<hr class="border-primary">
-			<?php
-			if(is_file(base_app.'welcome.html'))
-			 include 'welcome.html' ;
-			else{
-				echo "Edit the About Content in admin panel.";
-			}
-			 ?>
-		</div>
-	</section>
 </div>

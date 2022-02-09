@@ -1,9 +1,9 @@
 
-      <nav class="main-header navbar navbar-expand-md navbar-dark navbar-white bg-purple">
+      <nav class="main-header navbar navbar-expand-md navbar-dark navbar-white PrimaryBg">
       <div class="container">
         <a href="<?php echo base_url ?>" class="navbar-brand">
-          <img src="<?php echo validate_image($_settings->info('logo'))?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="width: 1.88rem;height: 1.88rem;max-height: unset">
-          <span class="brand-text font-weight-light"><?php echo (!isMobileDevice()) ? $_settings->info('name'):$_settings->info('short_name'); ?></span>
+          <img src="<?php echo base_url ?>uploads/hia-ichi-logo.jpg" alt="HIA-ichi Logo" class="brand-image img-circle elevation-3" style="width: 1.88rem;height: 1.88rem;max-height: unset">
+          <span class="brand-text font-weight-light tertiaryColor">HIA-ichi LMS</span>
         </a>
 
        <!--  <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
