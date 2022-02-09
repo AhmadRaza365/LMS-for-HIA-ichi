@@ -40,13 +40,13 @@
 					<a href="<?php echo base_url.'admin' ?>" class="portal-link">
 						<div class="card card-widget widget-user">
 			              <!-- Add the bg color to the header using any of the bg-* classes -->
-			              <div class="widget-user-header bg-indigo">
-			                <h3 class="widget-user-username">Admin</h3>
+			              <div class="widget-user-header PrimaryBg">
+			                <h3 class="widget-user-username tertiaryColor">Admin</h3>
 			              </div>
 			              <div class="widget-user-image">
 			                <span class="img-circle elevation-2 fa fa-user-cog portial-icon"></span>
 			              </div>
-			              <div class="card-footer bg-indigo">
+			              <div class="card-footer PrimaryBg">
 			                <div class="container">
 			                	<p class="text-center text-white-50"><small><i>Click here to Admin Side</i></small></p>
 			                </div>
