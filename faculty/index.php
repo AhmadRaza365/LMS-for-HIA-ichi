@@ -24,6 +24,7 @@
 $_p = explode("/",$page);
 echo (isset($_p[1])) ? ucwords(str_replace("_", " ",$_p[1])) : ucwords(str_replace("_", " ",$_p[0])) ;
 ?></h1>
+
               </div>
               <!-- /.col -->
               <!-- <div class="col-sm-6">
