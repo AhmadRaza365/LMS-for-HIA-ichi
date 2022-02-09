@@ -9,34 +9,9 @@
               
      <?php $page = isset($_GET['page']) ? $_GET['page'] : 'home';  ?>
       <!-- Content Wrapper. Contains page content -->
-      <div class="content-wrapper" style="min-height: 567.854px;">
+      <div class="content-wrapper " style="min-height: 567.854px;">
         <!-- Content Header (Page header) -->
-        <div class="content-header">
-          <div class="container-fluid">
-            <div class="row mb-2">
-              <div class="col-sm-6">
-                <h1 class="m-0"><?php 
-$_p = explode("/",$page);
-echo (isset($_p[1])) ? ucwords(str_replace("_", " ",$_p[1])) : ucwords(str_replace("_", " ",$_p[0])) ;
-?></h1>
-              </div>
-              <!-- /.col -->
-              <!-- <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="./admin?<?php echo $page ?>"><?php 
-$_p = explode("/",$page);
-echo (isset($_p[1])) ? ucwords(str_replace("_", " ",$_p[1])) : ucwords(str_replace("_", " ",$_p[0])) ;
-?></a></li>
-                  <li class="breadcrumb-item active">Dashboard v1</li>
-                </ol>
-              </div> -->
-              <!-- /.col -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container-fluid -->
-        </div>
-        <!-- /.content-header -->
+
         <!-- Main content -->
         <section class="content">
           <div class="container-fluid">
