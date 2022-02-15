@@ -45,7 +45,7 @@ video.note-video-clip {
 	<div class="card-header">
 		<h3 class="card-title"><?php echo isset($title) ? $title : '' ?></h3>
 		<div class="card-tools">
-			<a class="btn btn-block btn-sm btn-default btn-flat border-primary edit_lesson" href="./?page=lesson/manage_lesson&id=<?php echo $id ?>"><i class="fa fa-plus"></i> Edit Lesson</a>
+			<a class="btn btn-block btn-sm btn-default btn-flat SecondaryBg border-0 text-white edit_lesson" href="./?page=lesson/manage_lesson&id=<?php echo $id ?>"><i class="fa fa-plus"></i> Edit Lesson</a>
 		</div>
 	</div>
 	<div class="card-body">
@@ -101,7 +101,7 @@ video.note-video-clip {
         $class = $conn->query("SELECT cs.*,d.department,CONCAT(co.course,' ',c.level,'-',c.section) as class,s.subject_code,s.description FROM class_subjects_faculty cs inner join class c on c.id = cs.class_id inner join subjects s on s.id = cs.subject_id inner join department d on d.id = c.department_id inner join course co on co.id = c.course_id where cs.faculty_id = '{$faculty_id}' and cs.academic_year_id = '{$academic_year_id}' and cs.class_id in (SELECT class_id FROM lesson_class where lesson_id = $id ) group by cs.class_id ");
         while($row = $class->fetch_assoc()):
         ?>
-        <span class="badge badge-primary m-1" style="font-size:12px"><?php echo $row['class'] ?></span>
+        <span class="badge badge-primary m-1 SecondaryBg" style="font-size:12px"><?php echo $row['class'] ?></span>
         <?php endwhile; ?>
         </div>
         </section>

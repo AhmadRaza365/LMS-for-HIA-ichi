@@ -44,7 +44,7 @@
 					<td><span class="truncate"><?php echo $desc ?></span></td>
 					<td class="text-center">
 						<div class="btn-group dropdown">
-		                    <button type="button" class="btn btn-default btn-block btn-flat dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
+		                    <button type="button" class="btn btn-default btn-block SecondaryBg text-white btn-flat dropdown-toggle dropdown-hover dropdown-icon btn-sm" data-toggle="dropdown" aria-expanded="false">
 		                    	Action
 		                      <span class="sr-only">Toggle Dropdown</span>
 		                    </button>
