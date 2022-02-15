@@ -68,8 +68,8 @@
             <div class="modal-body">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn btn-primary SecondaryBg border-0" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
             </div>
           </div>
         </div>
