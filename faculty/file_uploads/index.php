@@ -2,10 +2,10 @@
     <div class="col-12">
         <div class="row justify-content-between mb-2">
             <div class="col-2">
-                <input type="text" class="form-control form-control-sm rounded-0" id="search" placeholder="search">
+                <input type="text" class="form-control form-control-sm rounded-0 tertiaryBg " id="search" placeholder="search">
             </div>
             <div>
-            <button class="btn btn-sm btn-primary btn-flat mr-2" type="button" id="uplaod_file">Upload File</button>
+            <button class="btn btn-sm btn-primary btn-flat mr-2 SecondaryBg border-0" type="button" id="uplaod_file">Upload File</button>
             </div>
         </div>
 

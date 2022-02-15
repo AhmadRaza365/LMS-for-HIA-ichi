@@ -9,7 +9,7 @@
                     <label class="custom-file-label" style="overflow:hidden;width:100%" for="fileInput">Choose file</label>
                 </div>
                 <div class="input-group-append">
-                <span class="input-group-text">Upload</span>
+                
                 </div>
             </div>
         </div>    
