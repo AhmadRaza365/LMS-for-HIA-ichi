@@ -27,7 +27,7 @@ if(isset($_GET['id'])){
 		display: none;
 	}
 </style>
-<div class="card card-outline card-primary">
+<div class="card card-outline card-primary SecondaryColBorder">
 	<div class="card-header">
 		<h3 class="card-title"></h3>
 	</div>
@@ -78,7 +78,7 @@ if(isset($_GET['id'])){
 	</div>
 	<div class="card-footer">
 		<div class="col-md-12">
-			<button class="btn btn-flat btn-primary" form="manage-lesson">Save</button>
+			<button class="btn btn-flat btn-primary SecondaryBg border-0 " form="manage-lesson">Save</button>
 			<a type="cutton" class="btn btn-flat btn-default" href="./?page=lesson">Cancel</a>
 		</div>
 	</div>

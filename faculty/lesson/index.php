@@ -2,7 +2,7 @@
 	<div class="card-header">
 		<h3 class="card-title">Lessons</h3>
 		<div class="card-tools">
-			<a class="btn btn-block btn-sm btn-default btn-flat border-primary new_lesson" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New Lesson</a>
+			<a class="btn btn-block btn-sm btn-default SecondaryBg text-white new_lesson" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New Lesson</a>
 		</div>
 	</div>
 	<div class="card-body">
