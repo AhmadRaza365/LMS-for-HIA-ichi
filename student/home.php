@@ -1,4 +1,5 @@
-<h1>Welcome to <?php echo $_settings->info('name') ?></h1>
+<h1 class=" text-center PrimaryColor">Welcome to HIA-ichi LMS System</h1>
+
 <hr>
 <div class="row row-cols-4 gx-4 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
     <?php 
@@ -19,7 +20,7 @@
                 <div class="card-header">
                     <h5 class='card-title'><?php echo $row['title'] ?></h5>
                     <div class="card-tools">
-                        <button class="btn bg-none p-0 unpin-item" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-thumbtack"></i></button>
+                        <button class="btn bg-none p-0 unpin-item" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-thumbtack PrimaryColor"></i></button>
                     </div>
                 </div>
                 <div class="card-body">
@@ -29,7 +30,7 @@
                         </div>
                         <div class="row justify-content-end">
                             <div class="col-auto">
-                                <a href="javascript:void(0)" class="view_bp-item" data-id="<?php echo $row['id'] ?>">View Backpack Item</a>
+                                <a href="javascript:void(0)" class="view_bp-item SecondaryColor" data-id="<?php echo $row['id'] ?>">View Backpack Item</a>
                             </div>
                         </div>
                     </div>
