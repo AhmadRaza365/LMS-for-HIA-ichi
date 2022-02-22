@@ -1,7 +1,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4 PrimaryBg">
   <!-- Brand Logo -->
-  <a href="<?php echo base_url ?>admin" class="brand-link text-sm SecondaryBg text-white">
+  <a href="<?php echo base_url ?>student" class="brand-link text-sm SecondaryBg text-white">
     <img src="<?php echo base_url ?>uploads/hia-ichi-logo.jpg" alt="HIA-ichi Logo" class="brand-image img-circle elevation-3" style="width: 1.88rem;height: 1.88rem;max-height: unset">
     <span class="brand-text font-weight-light">HIA-ichi LMS</span>
   </a>
