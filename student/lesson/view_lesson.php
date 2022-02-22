@@ -46,7 +46,7 @@ video.note-video-clip {
 	<div class="card-header">
 		<h3 class="card-title"><?php echo isset($title) ? $title : '' ?></h3>
         <div class="card-tools">
-            <button class="btn btn-sm btn-flat btn-primary" type="button" id="my_backpack">My Backpack</button>
+            <button class="btn btn-sm btn-flat btn-primary SecondaryBg border-0" type="button" id="my_backpack">My Backpack</button>
         </div>
 	</div>
 	<div class="card-body">
@@ -120,8 +120,8 @@ video.note-video-clip {
                 new_container.append(_el.clone().attr('style',"").css("width","100%"))
                 new_container.addClass('m-1')
             var _btn_container = $('<div class="mb-1 button_fields d-flex justify-content-end">')
-            var backpack_btn = $('<button class="btn btn-sm btn-default px-1 py-0 to_backpack" type="button" data-src="'+src+'">')
-                backpack_btn.html('<i class="fa fa-plus"></i> Add to Backpack')
+            var backpack_btn = $('<button class="btn btn-sm btn-primary px-1 py-0 to_backpack SecondaryBg border-0" type="button" data-src="'+src+'">')
+                backpack_btn.html('<i class="fa fa-plus "></i> Add to Backpack')
             _btn_container.append(backpack_btn)
             new_container.append(_btn_container);
             _el.replaceWith(new_container)
