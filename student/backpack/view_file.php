@@ -59,11 +59,11 @@ require_once('../../config.php');
     <div class="row justify-content-end">
         <?php if($redirect): ?>
             <div class="col-auto my-1 mx-1">
-                <a class="btn btn-primary btn-flat btn-sm" href="?page=lesson/view_lesson&id=<?php echo $lesson_id ?>">Go to lesson's Page</a>
+                <a class="btn btn-primary btn-flat btn-sm SecondaryBg border-0" href="?page=lesson/view_lesson&id=<?php echo $lesson_id ?>">Go to lesson's Page</a>
             </div>
         <?php endif; ?>
         <div class="col-auto my-1 mx-1">
-            <a class="btn btn-danger btn-flat btn-sm" href="javascript:void(0)" id="remove_from_backpack">Remove</a>
+            <a class="btn btn-danger btn-flat btn-sm " href="javascript:void(0)" id="remove_from_backpack">Remove</a>
         </div>
         <div class="col-auto my-1">
             <button class="btn btn-default btn-flat btn-sm" data-dismiss="modal" type="button">Close</button>

@@ -18,7 +18,7 @@
                     <h5 class='card-title'><?php echo $row['title'] ?></h5>
                     <div class="card-tools">
                         <?php if($row['pinned'] == 1): ?>
-                        <button class="btn bg-none p-0 unpin-item" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-thumbtack"></i></button>
+                        <button class="btn bg-none p-0 unpin-item" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-thumbtack PrimaryColor"></i></button>
                         <?php else: ?>
                         <button class="btn bg-none p-0 pin-item text-gray opacity-50" type="button" data-id="<?php echo $row['id'] ?>"><i class="fa fa-thumbtack"></i></button>
                         <?php endif; ?>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="row justify-content-end">
                             <div class="col-auto">
-                                <a href="javascript:void(0)" class="view_bp-item" data-id="<?php echo $row['id'] ?>">View Backpack Item</a>
+                                <a href="javascript:void(0)" class="view_bp-item SecondaryColor" data-id="<?php echo $row['id'] ?>">View Backpack Item</a>
                             </div>
                         </div>
                     </div>
