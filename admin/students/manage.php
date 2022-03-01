@@ -31,7 +31,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 				<input type="text" class="form-control form-control-sm" name="middlename" id="middlename" value="<?php echo isset($middlename) ? $middlename : '' ?>" placeholder="(optional)">
 			</div>
 			<div class="form-group mb-3">
-				<label for="dob" class="control-label">Gender</label>
+				<label for="dob" class="control-label">Date of Birth</label>
 				<input type="date" name ="dob" class="form-control" id="dob" required="" value="<?php echo isset($dob) ? date("Y-m-d",strtotime($dob)) : '' ?>">
 			</div>
 			<div class="form-group">

@@ -184,11 +184,11 @@ Class Master extends DBConnection {
 		}
 
 		if(empty($id)){
-			$data .= ", `password` = '".md5($student_id)."' ";
+			$data .= ", `password` = '".md5("123456789")."' ";
 			$sql = "INSERT INTO students set $data";
 		}else{
 			if(isset($preset) && $preset == 'on')
-			$data .= ", `password` = '".md5($student_id)."' ";
+			$data .= ", `password` = '".md5("123456789")."' ";
 			$sql = "UPDATE students set $data where id = $id";
 		}
 
@@ -204,7 +204,7 @@ Class Master extends DBConnection {
 						$this->conn->query("UPDATE students set avatar = '$fname' where id = $id ");
 					}
 			}
-			$this->settings->set_flashdata('success'," Subject Successfully saved.");
+			$this->settings->set_flashdata('success'," Student Successfully saved.");
 			return 1;
 		}else{
 			$resp['err']= "error saving data";
@@ -327,11 +327,11 @@ Class Master extends DBConnection {
 		}
 
 		if(empty($id)){
-			$data .= ", `password` = '".md5($faculty_id)."' ";
+			$data .= ", `password` = '".md5("123456789")."' ";
 			$sql = "INSERT INTO faculty set $data";
 		}else{
 			if(isset($preset) && $preset == 'on')
-			$data .= ", `password` = '".md5($faculty_id)."' ";
+			$data .= ", `password` = '".md5("123456789")."' ";
 			$sql = "UPDATE faculty set $data where id = $id";
 			$ofid = $this->conn->query("SELECT * FROM faculty where id = $id ")->fetch_array()['faculty_id'];
 		}
@@ -354,7 +354,7 @@ Class Master extends DBConnection {
 				$this->conn->query("UPDATE lessons set faculty_id = '$faculty_id' where faculty_id = $ofid ");
 
 			}
-			$this->settings->set_flashdata('success'," Subject Successfully saved.");
+			$this->settings->set_flashdata('success'," Faculty Successfully saved.");
 			return 1;
 		}else{
 			$resp['err']= "error saving data";
