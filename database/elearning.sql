@@ -24,25 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `academic_year`
---
-
-CREATE TABLE `academic_year` (
-  `id` int(30) NOT NULL,
-  `sy` varchar(150) NOT NULL,
-  `status` tinyint(5) NOT NULL DEFAULT 0
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `academic_year`
---
-
-INSERT INTO `academic_year` (`id`, `sy`, `status`) VALUES
-(1, '2020-2019', 1);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `backpack`
 --
 
@@ -358,29 +339,6 @@ INSERT INTO `subjects` (`id`, `subject_code`, `description`) VALUES
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `system_info`
---
-
-CREATE TABLE `system_info` (
-  `id` int(30) NOT NULL,
-  `meta_field` text NOT NULL,
-  `meta_value` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `system_info`
---
-
-INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
-(1, 'name', 'Online Learning System V2 - PHP'),
-(2, 'address', 'Philippines'),
-(3, 'contact', '+1234567890'),
-(4, 'email', 'info@sample.com'),
-(6, 'short_name', 'eLearning V2'),
-(9, 'logo', 'uploads/1630740180_elearning-logo.jpg');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `upload_files`
@@ -434,11 +392,6 @@ INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `password`, `ava
 -- Indexes for dumped tables
 --
 
---
--- Indexes for table `academic_year`
---
-ALTER TABLE `academic_year`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `backpack`
@@ -494,11 +447,6 @@ ALTER TABLE `student_class`
 ALTER TABLE `subjects`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `system_info`
---
-ALTER TABLE `system_info`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `upload_files`
@@ -516,11 +464,6 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for dumped tables
 --
 
---
--- AUTO_INCREMENT for table `academic_year`
---
-ALTER TABLE `academic_year`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `backpack`
@@ -576,11 +519,6 @@ ALTER TABLE `student_class`
 ALTER TABLE `subjects`
   MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
---
--- AUTO_INCREMENT for table `system_info`
---
-ALTER TABLE `system_info`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `upload_files`
