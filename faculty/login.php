@@ -17,7 +17,7 @@
 
       <form id="flogin-frm" action="" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control tertiaryBg" name="faculty_id" placeholder="Faculty ID">
+          <input type="email" class="form-control tertiaryBg" name="email" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user SecondaryColor"></span>
